@@ -13,6 +13,9 @@ body{
 .grid{
     border: 2px solid black;
     border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .origami{
     border-radius: 20px;
@@ -20,4 +23,9 @@ body{
 
     width: 310px;
     font-family: fantasy;
+}
+.bodyimg{
+    
+    text-align: center;
+    justify-content: space-between;
 }
